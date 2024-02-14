@@ -19,7 +19,8 @@ def get_gemini_response(question):
 
 st.set_page_config(page_title="Built Automations")
 
-st.header("Built Automations - Ask me anything I will help you 🤖")
+st.header("Hello, I am your AI Automation Assistant 🤖")
+st.caption("Ask me anything, I will assist you")
 
 # Initialize session state for chat history if it doesn't exist
 if 'chat_history' not in st.session_state:
