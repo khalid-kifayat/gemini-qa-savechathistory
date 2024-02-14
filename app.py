@@ -17,9 +17,9 @@ def get_gemini_response(question):
 
 ##initialize our streamlit app
 
-st.set_page_config(page_title="Q&A SaveChatHistory")
+st.set_page_config(page_title="Built Automations")
 
-st.header("Q&A Saving Chat History - 🤖 Gemini Pro App")
+st.header("Built Automations - Ask me anything I will help you 🤖")
 
 # Initialize session state for chat history if it doesn't exist
 if 'chat_history' not in st.session_state:
@@ -41,9 +41,6 @@ st.subheader("The Chat History is")
 for role, text in st.session_state['chat_history']:
     st.write(f"{role}: {text}")
  
-st.markdown("---")
-st.caption("using Google Gemini Pro, Python-Langchain Application created by Khalid kifayat :sunglasses:")
-
 hide_streamlit_style = """
             <style>
 
