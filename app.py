@@ -19,8 +19,7 @@ def get_gemini_response(question):
 
 st.set_page_config(page_title="Built Automations")
 
-st.header("Hello, I am your AI Automation Assistant 🤖")
-st.markdown("---")
+st.header('Hello, I am your AI Automation Assistant 🤖', divider='rainbow')
 st.caption("Ask me anything, I will assist you")
 
 # Initialize session state for chat history if it doesn't exist
